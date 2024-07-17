@@ -158,3 +158,29 @@ body {
   color: gray;
 }
 /* banner ends here */
+
+
+.habits {
+    text-align: center;
+}
+.habits p {
+    color: gray;
+    
+}
+
+.mtpw {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: small;
+    text-align: center;
+}
+
+.mtpw img {
+    width: 100px;
+    border-radius: 50%;
+   
+}
+
+.mtpw p {
+    color: gray;
+}
