@@ -210,6 +210,32 @@ body {
   margin: 10px;
 }
 
+/* bmi starts here */
+.bmi {
+  display: flex;
+  justify-content: space-around;
+}
+/* bmi ends here */
+
+input {
+  background-color: rgba(108, 108, 108, 0.874);
+  color: rgba(245, 245, 245, 0.353);
+}
+input {
+  background-color: rgba(108, 108, 108, 0.874);
+  color: rgba(245, 245, 245, 0.353);
+}
+#gender-option {
+  background-color: rgba(108, 108, 108, 0.874);
+  color: rgba(245, 245, 245, 0.353);
+  width: 49%;
+}
+#activity {
+  background-color: rgba(108, 108, 108, 0.874);
+  color: rgba(245, 245, 245, 0.353);
+  width: 100%;
+}
+
 /* footer section starts here */
 
 .footer {
