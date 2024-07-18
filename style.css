@@ -24,7 +24,9 @@ body {
   justify-content: space-between;
   margin: 0 20px;
 }
-
+.nav .fa-solid {
+  display: none;
+}
 .nav > ul {
   display: flex;
   gap: 10px;
@@ -37,6 +39,16 @@ body {
 @media screen and (max-width: 576px) {
   .nav > ul {
     display: none;
+  }
+  .nav .fa-solid {
+    display: inline-block;
+    margin-top: 25px;
+  }
+
+  .nav {
+    display: flex ;
+    justify-content: space-between;
+    
   }
 }
 
