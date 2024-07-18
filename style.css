@@ -283,6 +283,40 @@ input::placeholder {
 
 /* bmi ends here */
 
+/* team section starts here */
+
+.team {
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 80%;
+  padding: 10px;
+  background-color: var(--text-color-p);
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card img {
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.card .trainer-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+/* team section ends here */
+
 /* footer section starts here */
 
 .footer {
