@@ -21,8 +21,8 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  margin: 0 20px;
+  justify-content: space-around;
+   
 }
 .nav .fa-solid {
   display: none;
@@ -82,6 +82,7 @@ body {
   justify-content: space-around;
   gap: 30px;
   background-color: rgba(220, 220, 220, 0.074);
+  margin-top: 20px;
 }
 
 .getbody {
@@ -106,6 +107,7 @@ body {
   width: 120px;
   padding: 5px;
   margin-right: 10px;
+  margin-top: 15px;
 }
 .app {
   background-color: var(--secondary-color);
@@ -119,7 +121,7 @@ body {
   padding: 5px;
 }
 
-.empty {
+.circle {
   width: 25px;
   height: 25px;
 
@@ -136,7 +138,7 @@ body {
 
 .workout {
   position: absolute;
-  right: 205px;
+  right: 410px;
   top: 150px;
   background: rgba(128, 128, 128, 0.189);
   border-radius: 5px;
@@ -178,8 +180,12 @@ body {
 } */
 /* banner ends here */
 
+/* 
+change habit starts here */
 .habits {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .habits p {
   color: var(--text-color-p);
@@ -206,8 +212,9 @@ body {
   justify-content: space-around;
   background-color: rgba(128, 128, 128, 0.499);
   width: 80%;
-
   margin: 0 auto;
+  border-radius: 8px;
+  
 }
 .extramile h1 {
   color: var(--text-color-h1);
@@ -357,3 +364,6 @@ hr {
 }
 
 /* footer section ends here */
+
+
+
