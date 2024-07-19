@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url("https://fonts.cdnfonts.com/css/miama");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
   --primary-color: rgb(248, 72, 41);
   --secondary-color: black;
   --text-color-h1: white;
   --text-color-p: gray;
+  --bg-color: #222222;
 }
 
 p {
-  color: var(--text-color-p);
+  color: gray;
 }
 li {
   list-style: none;
@@ -22,7 +24,6 @@ body {
 .nav {
   display: flex;
   justify-content: space-around;
-   
 }
 .nav .fa-solid {
   display: none;
@@ -36,21 +37,7 @@ body {
   padding: 8px;
 }
 
-@media screen and (max-width: 576px) {
-  .nav > ul {
-    display: none;
-  }
-  .nav .fa-solid {
-    display: inline-block;
-    margin-top: 25px;
-  }
 
-  .nav {
-    display: flex ;
-    justify-content: space-between;
-    
-  }
-}
 
 .fitness {
   color: var(--primary-color) !important;
@@ -81,18 +68,23 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 30px;
-  background-color: rgba(220, 220, 220, 0.074);
+  background: linear-gradient(to top, rgb(10, 10, 10), rgb(43, 42, 42), black);
+  /* background-color: rgba(220, 220, 220, 0.074); */
   margin-top: 20px;
 }
 
 .getbody {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .shape {
-  font-family: "Playwrite CU", cursive;
-  font-optical-sizing: auto;
+ 
+  font-family: "Miama", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 /* .exercise > p {
@@ -124,7 +116,7 @@ body {
 .circle {
   width: 25px;
   height: 25px;
-
+  position: absolute;
   margin-top: 17px;
   margin-left: 10px;
 
@@ -162,7 +154,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   position: relative;
-  bottom: 100px;
+  bottom: 70px;
   right: 50px;
   background: rgba(128, 128, 128, 0.189);
   border-radius: 5px;
@@ -175,9 +167,9 @@ body {
 #tutorial > h1 {
   color: var(--text-color-h1);
 }
-/* #tutorial > p {
-  color: gray;
-} */
+.youtube-icon img {
+    display: none;
+}
 /* banner ends here */
 
 /* 
@@ -210,11 +202,11 @@ change habit starts here */
 .extramile {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(128, 128, 128, 0.499);
+  /* background-color: rgba(128, 128, 128, 0.499); */
+  background-color: var(--bg-color);
   width: 80%;
   margin: 0 auto;
   border-radius: 8px;
-  
 }
 .extramile h1 {
   color: var(--text-color-h1);
@@ -233,7 +225,8 @@ change habit starts here */
 .bmi {
   display: flex;
   justify-content: space-around;
-  background-color: var(--text-color-p);
+  /* background-color: var(--text-color-p); */
+  background-color: var(--bg-color);
   padding: 15px;
 }
 
@@ -313,7 +306,7 @@ input::placeholder {
   gap: 15px;
   width: 80%;
   padding: 10px;
-  background-color: var(--text-color-p);
+  background-color: var(--bg-color);
   margin: 0 auto;
 }
 
@@ -339,11 +332,13 @@ input::placeholder {
 /* footer section starts here */
 
 .footer {
-  background-color: rgba(128, 128, 128, 0.499);
+  /* background-color: rgba(128, 128, 128, 0.499); */
+  background-color: var(--bg-color);
 }
 .rights {
   text-align: center;
   padding-bottom: 10px;
+  color: white;
 }
 .footer-section {
   display: flex;
@@ -364,6 +359,3 @@ hr {
 }
 
 /* footer section ends here */
-
-
-
