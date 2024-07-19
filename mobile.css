@@ -19,6 +19,7 @@
   .banner {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 20px;
   }
 
   .image {
@@ -49,16 +50,14 @@
     border-radius: 100px;
     margin-top: 17px;
     margin-left: 10px;
-   
-}
-
+  }
 
   .tutorial {
     display: grid;
     grid-template-columns: auto auto;
-    position: absolute;
-    right: 330px;
-    bottom: 150px;
+    position: relative;
+    bottom: 160px;
+    left: 10px;
     background: rgba(128, 128, 128, 0.189);
     border-radius: 5px;
     text-align: center;
