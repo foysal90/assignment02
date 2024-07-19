@@ -21,6 +21,7 @@ body {
   color: white;
 }
 
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -36,8 +37,6 @@ body {
   border-radius: 25px;
   padding: 8px;
 }
-
-
 
 .fitness {
   color: var(--primary-color) !important;
@@ -74,14 +73,12 @@ body {
 }
 
 .getbody {
-
   font-family: "Inter", sans-serif;
   font-size: 45px;
   font-weight: 800;
 }
 
 .shape {
- 
   font-family: "Miama", sans-serif;
   font-size: 50px;
   font-weight: 400;
@@ -168,7 +165,7 @@ body {
   color: var(--text-color-h1);
 }
 .youtube-icon img {
-    display: none;
+  display: none;
 }
 /* banner ends here */
 
