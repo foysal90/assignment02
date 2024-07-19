@@ -86,10 +86,42 @@
     margin: 0 auto;
   }
 
-  /* .membership {
+  .membership {
+    
+    margin: 10px;
+  }
+
+  .membership-plan {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  } */
+    margin-left: 1px;
+  }
+
+  .membership-plan div {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(249, 3, 3);
+    text-align: center;
+  
+    border-radius: 15px;
+  
+}
+.membership-plan h1 {
+    font-size: 20px;
+}
+.membership-plan h5 {
+    font-size: 10px;
+}
+
+.membership-plan ol li img {
+    width: 15px;
+    height: 15px;
+    
+   
+    
+  
+}
+
 
   .footer-section {
     display: block;
