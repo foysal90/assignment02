@@ -3,7 +3,7 @@
 @import url("https://fonts.cdnfonts.com/css/miama");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 :root {
-  --primary-color: #E6533C;
+  --primary-color: #e6533c;
   --secondary-color: black;
   --text-color-h1: white;
   --text-color-p: gray;
@@ -20,8 +20,6 @@ body {
   background-color: #0b0b0b;
   color: white;
 }
-
-
 
 .nav {
   display: flex;
@@ -193,8 +191,6 @@ change habit starts here */
   border-radius: 50%;
 }
 
-
-
 .extramile {
   display: flex;
   justify-content: space-around;
@@ -290,64 +286,58 @@ input::placeholder {
 
 /* membership */
 .membership {
-    text-align: center;
+  text-align: center;
 }
-.membership-plan{
-    display: flex;
-    justify-content: space-around;
-    
-    width: 85%;
-    
-    margin-left: 150px;
-    border-radius: 10px;
-    background: linear-gradient(to left, rgb(8, 10, 8), rgb(178, 174, 178), rgb(17, 12, 15));
- 
+.membership-plan {
+  display: flex;
+  justify-content: space-around;
+
+  width: 85%;
+
+  margin-left: 150px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to left,
+    rgb(8, 10, 8),
+    rgb(178, 174, 178),
+    rgb(17, 12, 15)
+  );
 }
 .membership-plan h1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 .membership-plan h5 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .membership-plan div {
-    width: 350px;
-    height: 330px;
-    background-color: var(--primary-color);
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 15px;
-  
+  width: 400px;
+  height: 370px;
+  background-color: var(--primary-color);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .membership-plan div h4 button {
-   margin-left: 20px;
-   padding: 5px 15px;
-   background-color: rgb(21, 94, 21);
-   color: rgb(107, 238, 107);
-   border-radius: 7px;
-   border-style: none;
-
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: rgb(21, 94, 21);
+  color: rgb(107, 238, 107);
+  border-radius: 7px;
+  border-style: none;
 }
 .membership-plan ol li {
-    padding: 2px;
-    display: flex;
-    
-    
-  
+  padding: 2px;
+  display: flex;
 }
 .membership-plan ol li img {
-    width: 15px;
-    height: 15px;
-    
-    margin-right: 5px;
-    
-  
+  width: 15px;
+  height: 15px;
+
+  margin-right: 5px;
 }
-
-
-
 
 /* membership */
 
