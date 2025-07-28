@@ -36,6 +36,27 @@ body {
   border-radius: 25px;
   padding: 8px;
 }
+.nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: black; /* Or any color you prefer */
+  padding-bottom: 5px;
+}
+
+.nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ff4500;
+  transition: width 0.5s ease;
+}
+
+.nav ul li a:hover::after {
+  width: 100%;
+}
 
 .fitness {
   color: var(--primary-color) !important;
@@ -294,7 +315,7 @@ input::placeholder {
   gap: 15px;
   width: 100%;
   padding: 10px;
- margin:  0 auto;
+  margin: 0 auto;
   background: linear-gradient(
     to left,
     rgb(8, 10, 8),
@@ -418,3 +439,70 @@ hr {
 /* footer section ends here */
 
 
+
+.membership-plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 420px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front {
+  background: #f9f9f9;
+  color: #000;
+}
+
+.flip-card-back {
+  background: #333;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back h2 {
+  margin-bottom: 10px;
+}
+
+.flip-card-back button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
